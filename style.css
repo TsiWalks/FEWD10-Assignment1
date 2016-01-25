@@ -1,12 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700italic,300italic,300,400italic,700);
-
+html{
+	background-color: #ffe;
+}
 body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	float: center;
+    margin: 15px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    border-top: solid;
+    border-bottom: solid;
 }
-h1,
-b,
-	{
+h1{
 	font-family:'Roboto', sans-serif;
 	font-weight: 700;
+	border-bottom: solid; max-width: auto;	
+}
+img{
+	float: center;
+    margin: 5px;
+    padding: 15px;
+    max-width: 90vw;
+    max-height: 90vw;
+    width: auto;
+    height: auto;
 }
